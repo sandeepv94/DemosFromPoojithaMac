@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>213399485059-024de6ak7kvsfsme3qvus4dk6j1gtac2.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.213399485059-024de6ak7kvsfsme3qvus4dk6j1gtac2</string>
+	<key>API_KEY</key>
+	<string>AIzaSyDSBFfT7WyRP1wxdXk7ed3Lubj7EEghYyQ</string>
+	<key>GCM_SENDER_ID</key>
+	<string>213399485059</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.peoplelink.DemoForPush</string>
+	<key>PROJECT_ID</key>
+	<string>pushdemo-e420e</string>
+	<key>STORAGE_BUCKET</key>
+	<string>pushdemo-e420e.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:213399485059:ios:01c11e134cd87ce31979b6</string>
+	<key>DATABASE_URL</key>
+	<string>https://pushdemo-e420e.firebaseio.com</string>
+</dict>
+</plist>
