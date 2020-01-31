@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>698992546407-r1201ke3oflvol1qtu4s60jucseg6987.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.698992546407-r1201ke3oflvol1qtu4s60jucseg6987</string>
+	<key>API_KEY</key>
+	<string>AIzaSyCXIt3vvJ7M3CT43bqObIa6Je1LIqJXsFQ</string>
+	<key>GCM_SENDER_ID</key>
+	<string>698992546407</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.peoplelink.RemoteNotifications</string>
+	<key>PROJECT_ID</key>
+	<string>remotenotifs-4df4b</string>
+	<key>STORAGE_BUCKET</key>
+	<string>remotenotifs-4df4b.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:698992546407:ios:ff7dc16a2f48a5245fbac2</string>
+	<key>DATABASE_URL</key>
+	<string>https://remotenotifs-4df4b.firebaseio.com</string>
+</dict>
+</plist>
