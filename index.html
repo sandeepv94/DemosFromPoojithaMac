@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <title>WebRTC</title>
+        <link href="style.css" rel="stylesheet" type="text/css"/>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    </head>
+
+    <body>
+        <div id="login">
+            <label for="username">Login</label>
+            <input id="username" placeholder="Login" required="" autofocus="">
+            <button id="login">Login</button>
+        </div>
+
+        <div id="call">
+            <video id="local" autoplay></video>
+            <video id="remote" autoplay></video>
+
+            <div>
+                <input id="username-to-call" placeholder="Username to call"/>
+                <button id="call">Call</button>
+                <button id="close-call">Close call</button>
+            </div>
+        </div>
+
+        <!-- <div>
+            <div id="send">
+                <h2>Data Channel</h2>
+                <textarea
+                    id="dataChannelSend"
+                    disabled
+                    placeholder="Enter some text, then press Send.">
+                </textarea>
+            </div>
+            <div id="button">
+              <button id="sendButton" disabled>Send</button>
+            </div>
+        </div> -->
+
+        <div id="receive">
+          <h2>Receive</h2>
+          <textarea id="dataChannelReceive" disabled></textarea>
+      </div>
+      <section>
+        <div class="container">
+          <div class="row">
+            <div class="col">
+              <Button class="btn btn-primary" id="bpDevice">
+                <p>BP</p>
+              </Button>
+            </div>
+            <div class="col">
+              <Button class="btn btn-primary" id="pulseDevice">
+                <p>Pulseoxymeter</p>
+              </Button>
+            </div>
+            <div class="col">
+              <Button class="btn btn-primary" id="tempDevice">
+                <p>Thermometer</p>
+              </Button>
+            </div>
+            <div class="col">
+              <Button class="btn btn-primary" id="sugarDevice">
+                <p>Glucometer</p>
+              </Button>
+            </div>
+            <div class="col">
+              <Button class="btn btn-primary" id="stethDevice">
+                <p>Stethoscope</p>
+              </Button>
+            </div>
+            <div class="col">
+              <Button class="btn btn-primary" id="ecgDevice">
+                <p>ECG</p>
+              </Button>
+            </div>
+            <div class="col">
+              <Button class="btn btn-primary" id="torch">
+                <p>Torch</p>
+              </Button>
+            </div>
+            <div class="col">
+              <Button class="btn btn-primary" id="cancel">
+                <p>Cancle</p>
+              </Button>
+            </div>
+          </div>
+        </div>
+      </section>
+    </body>
+    <script src="client.js"></script>
+    <script src="https://webrtc.github.io/adapter/adapter-latest.js"></script>
+</html>
